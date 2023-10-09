@@ -1,18 +1,44 @@
 # Matching Game
 
-This is a memory-matching game of 8 pairs of cards, and the objective is to match all the pairs by flipping the cards over. The game has a Reset button to shuffle the cards again.
+This is a simple web-based memory-matching game implemented in HTML, CSS, and JavaScript.
 
-## ## Technologies Used
+## Table of Contents
 
-- HTML
-- CSS
-- JavaScript
-- Font Awesome
+- [Description](#description)
+- [Game Features](#game-features)
+- [How to Play](#how-to-play)
+- [Screenshots](#screenshots)
+- [Installation](#installation)
 
-## Usage
 
-The game is played by clicking on cards to flip them over. If two cards match, they stay flipped over. If they do not match, they are flipped back over. The game is won when all 8 pairs have been matched. The Reset button shuffles the cards and restarts the game.
+## Description
 
-### Styling
+Matching Game is a classic memory game where the player is presented with a grid of cards, each containing an image. The goal is to find pairs of matching cards by flipping them over two at a time. The game is won when all pairs have been successfully matched.
 
-The game is styled using CSS, including styles for the game container, cards, and the Reset button. The styles include a gradient background, border radius, box shadow, and animation effects. The styles also include media queries for responsive design on different screen sizes.
+## Game Features
+
+- 8 pairs of cards for a total of 16 cards.
+- A countdown timer to add a challenge.
+- A "You won!" message when all pairs are matched.
+- A "Play Again" button to reset the game.
+- A "Reset" button to restart the game at any time.
+
+## How to Play
+
+1. Click on a card to reveal its image.
+2. Click on another card to see if it matches the first card.
+3. If the two cards match, they will remain face up.
+4. If the two cards do not match, they will be flipped face down again.
+5. Continue until all card pairs are matched.
+6. If the timer runs out before all pairs are matched, you lose the game.
+
+## Screenshots
+
+![Game Screenshot](./img/matching-game.png)
+
+## Installation
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/Qassab/Matching-Game.git
